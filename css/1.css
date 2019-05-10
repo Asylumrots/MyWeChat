@@ -1,0 +1,59 @@
+			body{
+				background: url(../img/background.jpg) no-repeat top center;
+				background-color: black;
+			}
+			#box{
+				height: 220px;
+				width: 330px;
+				background-color: white;
+				margin: auto;
+				position: relative;
+				top: 200px;
+				right: 15px;
+				border-radius: 25px;
+			}
+			#tip{
+				text-align: center;
+				position: relative;
+				top: 15px;
+				padding-bottom: 10px;
+			}
+			#id{
+				position: absolute;
+				left: 100px;
+				top: 63px;
+			}
+			#pw{
+				position: absolute;
+				left: 100px;
+				top: 99px;
+			}
+			.cue{
+				margin-left: 20px;
+				margin-top: 15px;
+			}
+			#test{
+				width: 50px;
+				position: absolute;
+				left: 100px;
+				top: 134px;
+			}
+			#testPic{
+				width: 65px;
+				position: absolute;
+				left: 175px;
+				top: 134px;
+			}
+			#login{
+				margin-left: 99px;
+			}
+			#ell{
+				margin-left: 40px;
+			}
+			#brand{
+				color: gray;
+				font-size: 15px;
+				position: absolute;
+				bottom: 10px;
+				left: 38%;
+			}

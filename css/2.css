@@ -1,0 +1,344 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background: url(../img/background2.jpg) no-repeat top center;
+	/*background-size: cover;*/
+	background-size:100% 100%;
+	background-attachment: fixed;
+}
+
+#box {
+	height: 600px;
+	width: 800px;
+	position: absolute;
+	left: 24%;
+	top: 10%;
+}
+
+#left_box {
+	height: 600px;
+	width: 250px;
+	background-color: #2E3238;
+}
+
+#right_box {
+	height: 600px;
+	width: 550px;
+	background-color: #EEEEEE;
+	position: relative;
+	bottom: 600px;
+	left: 250px;
+}
+
+#right_box>p {
+	color: gray;
+	font-size: 15px;
+	position: absolute;
+	bottom: 320px;
+	left: 45%;
+}
+
+#left_top {
+	height: 90px;
+}
+
+#left_top>img {
+	margin: 20px;
+}
+
+#left_top>p {
+	margin-top: -55px;
+	margin-left: 85px;
+}
+
+#list {
+	position: relative;
+	bottom: 50px;
+	left: 180px;
+	cursor: pointer;
+}
+
+#left_mid {
+	height: 50px;
+}
+
+#left_mid>img {
+	margin: 10px;
+	position: relative;
+	left: 10px;
+	top: 1px;
+}
+
+#search {
+	border: 0px;
+	background: #26282E;
+	height: 30px;
+	width: 180px;
+	position: relative;
+	right: 5px;
+	bottom: 20px;
+	color: white;
+}
+
+#left_list {
+	height: 50px;
+	width: auto;
+}
+
+#left_list ul li {
+	list-style: none;
+	float: left;
+	margin-left: 18px;
+	cursor: pointer;
+}
+
+#lie{
+	width: 150px;
+	height: 154px;
+	background: white;
+	position: absolute;
+	top: 60px;
+	left: 80px;
+	z-index: 2;
+}
+#lie ul li{
+	list-style: none;
+	width: 150px;
+	height: 30px;
+	line-height: 45px;
+	cursor: pointer;
+	border-bottom: black 1px solid;
+}
+#lie ul li p{
+	font-size: 13px;
+	position: relative;
+	bottom: 53px;
+	left: 50px;
+}
+#brand{
+	color: gray;
+	font-size: 15px;
+	position: absolute;
+	bottom: 0%;
+	left: 38%;
+}
+.hr{
+	border-top: #000000 1px solid;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+}
+#bottom_box{
+}
+#chat_list{
+	list-style: none;
+	position: absolute;
+}
+#chat_list li{
+	height: 60px;
+	width: 250px;
+	position: relative;
+	cursor: pointer;
+	line-height: 32px;
+}
+#chat_list li img{
+	height: 35px;
+	width: 35px;
+	position: relative;
+	top: 10px;
+	left: 20px;
+}
+#chat_list li p{
+	color: white;
+	position: relative;
+	left: 70px;
+	top: -33px;
+}
+
+
+#book_list{
+	list-style: none;
+	position: absolute;
+	display: none;
+}
+#book_list li{
+	height: 60px;
+	width: 250px;
+	position: relative;
+	cursor: pointer;
+	line-height: 32px;
+}
+#book_list li img{
+	height: 35px;
+	width: 35px;
+	position: relative;
+	top: 10px;
+	left: 20px;
+}
+#book_list li p{
+	color: white;
+	position: relative;
+	left: 70px;
+	top: -33px;
+}
+
+#man_list{
+	list-style: none;
+	position: absolute;
+	display: none;
+}
+#man_list li{
+	height: 60px;
+	width: 250px;
+	position: relative;
+	cursor: pointer;
+	line-height: 32px;
+}
+#man_list li img{
+	height: 35px;
+	width: 35px;
+	position: relative;
+	top: 10px;
+	left: 20px;
+}
+#man_list li p{
+	color: white;
+	position: relative;
+	left: 70px;
+	top: -33px;
+}
+#chat_box{
+	position: absolute;
+	height: 600px;
+	width: 550px;
+	display: none;
+}
+#chat_text{
+	padding-left: 45%;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	font-size: 20px;
+}
+#hr{
+	border-top: #000000 1px solid;
+	height: 1px;
+	width: 550px;
+	position: absolute;
+	bottom: 146px;
+}
+.tool{
+	height: 30px;
+	width: 30px;
+	margin-top: 400px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+#send{
+	width: 60px;
+	height: 30px;
+	position: absolute;
+	right: 20px;
+	bottom: 10px;
+}
+#textarea{
+	width: 548px;
+	height: 107px;
+	background-color: #EEEEEE;
+	outline: none;
+	resize:none;
+	overflow:auto;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	border-style:solid; 
+	border-color:#EEEEEE;
+	font-size: 15px;
+}
+#book_box{
+	display: none;
+}
+#book_text{
+	padding-left: 45%;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	font-size: 20px;
+}
+#text1{
+	position: absolute;
+	display: none;
+}
+#text2{
+	position: absolute;
+	display: none;
+}
+#text3{
+	position: absolute;
+	display: none;
+}
+#man_box{
+	display: none;
+}
+#man_text{
+	padding-left: 45%;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	font-size: 20px;
+}
+#head{
+	height: 100px;
+	width: 100px;
+	margin-left: 43%;
+	margin-top: 80px;
+}
+#man_texts{
+	margin-left: 47%;
+	margin-top: 11px;
+	position: absolute;
+}
+#man_jie{
+	margin-left: 43%;
+	margin-top: 40px;
+	position: absolute;
+}
+#man_jie_input1{
+	height: 20px;
+	width: 50px;
+	position: absolute;
+	margin-top: 43px;
+	margin-left: 50%;
+	display: none;
+	border: 0px;
+}
+#man_jie_input2{
+	height: 20px;
+	width: 50px;
+	position: absolute;
+	margin-top: 43px;
+	margin-left: 50%;
+	display: none;
+	border: 0px;
+}
+#man_jie_input3{
+	height: 20px;
+	width: 50px;
+	position: absolute;
+	margin-top: 43px;
+	margin-left: 50%;
+	display: none;
+	border: 0px
+}
+#man_button{
+	height: 50px;
+	width: 200px;
+	background-color: #42ac3e;
+	text-align: center;
+	line-height: 50px;
+	margin-left: 34%;
+	position: relative;
+	top: 80px;
+	border-radius: 6px;
+	cursor: pointer;
+}
